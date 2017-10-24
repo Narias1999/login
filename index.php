@@ -40,13 +40,13 @@
 			box-sizing: border-box;
 		}
 		body{
-			background: #2C3E50;
+			background: #fff;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			min-height: 100vh;
 			text-align: center;
-			color: #fff;
+			color: #000;
     		font-family: 'Source Sans Pro', sans-serif;
 		}
 		a{
@@ -87,7 +87,8 @@
 			position: relative;
 			height: 45px;
 			border-radius: 50px;
-			background: rgba(21,36,48,.5);
+			background: rgba(255,255,255,0);
+			border: 1px solid #2980B9;
 		}
 		.inputField input{
     		font-family: 'Source Sans Pro', sans-serif;
@@ -97,7 +98,7 @@
 			border: 0;
 			line-height: 45px;
 			font-size: 16px;
-			color: rgba(236,240,241,.6);
+			color: rgba(0,0,0,.8);
 			background: rgba(0,0,0,0);
 		}
 		.inputField input:hover .inputField{
